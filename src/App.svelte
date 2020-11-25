@@ -57,7 +57,7 @@
 
 	@media (max-width: 640px) {
 		iframe {
-			width: 250px;
+			max-width: 250px;
 		}
 	}
 
