@@ -1,5 +1,5 @@
 # bops.lol
-This is a neat page for people to represent their Spotfy playlist. I love playlist-culture for many reasons and sharing playlist carries a special feeling as well. This is also a small project for me to try out things (like Svelte), so while I woulnd't keep it too complex, it's still a thing that could move quickly.
+This is a neat page for people to represent their Spotify playlist. I love playlist-culture for many reasons and sharing playlist carries a special feeling as well. This is also a small project for me to try out things (like Svelte), so while I woulnd't keep it too complex, it's still a thing that could move quickly.
 
 ## Build + Run
 You need Node.js and npm installed.
