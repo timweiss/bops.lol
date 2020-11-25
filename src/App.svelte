@@ -27,7 +27,7 @@
 	<div class="playlists">
 		{#each lists as playlist }
 			<div class="item">
-			<iframe title="Playlist from {playlist.user.name}" src="{playlist.url}" width="350" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+			<iframe title="Playlist from {playlist.user.name}" src="{playlist.url}" width="300" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 			<p class="author">from <a href="{playlist.user.url}">{playlist.user.name}</a></p>
 			</div>
 		{/each}
@@ -52,6 +52,12 @@
 	@media (min-width: 640px) {
 		main {
 			max-width: none;
+		}
+	}
+
+	@media (max-width: 640px) {
+		iframe {
+			width: 250px;
 		}
 	}
 
