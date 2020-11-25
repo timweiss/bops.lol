@@ -15,6 +15,7 @@
 	<meta property="og:image" content="https://bops.lol/og.png" /> 
 	<meta property="og:url" content="https://bops.lol" />
 	<meta property="twitter:creator" content="@supplyanddem" />
+	<meta name="twitter:card" content="summary_large_image" />
 	<meta charset="utf-8"/>
 	<html lang="en" />
 </svelte:head>
