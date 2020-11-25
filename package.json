@@ -1,31 +1,30 @@
 {
-  "name": "gatsby-starter-hello-world",
-  "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
-  "version": "0.1.0",
-  "license": "0BSD",
+  "name": "svelte-app",
+  "version": "1.0.0",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
-  },
-  "dependencies": {
-    "gatsby": "^2.26.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "start": "sirv public",
+    "validate": "svelte-check"
   },
   "devDependencies": {
-    "prettier": "2.1.2"
+    "@rollup/plugin-commonjs": "^16.0.0",
+    "@rollup/plugin-node-resolve": "^10.0.0",
+    "rollup": "^2.3.4",
+    "rollup-plugin-css-only": "^3.0.0",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-svelte": "^7.0.0",
+    "rollup-plugin-terser": "^7.0.0",
+    "svelte": "^3.0.0",
+    "svelte-check": "^1.0.0",
+    "svelte-preprocess": "^4.0.0",
+    "@rollup/plugin-typescript": "^6.0.0",
+    "typescript": "^3.9.3",
+    "tslib": "^2.0.0",
+    "@tsconfig/svelte": "^1.0.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  "dependencies": {
+    "@rollup/plugin-json": "^4.1.0",
+    "sirv-cli": "^1.0.0"
   }
 }
